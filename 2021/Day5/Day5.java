@@ -6,8 +6,6 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-import Day4.Day4;
-
 public class Day5 {
     static List<String> input;
     static int maxSize = 1000;
@@ -82,8 +80,6 @@ public class Day5 {
 
             boolean horizontalVerticalCheck = (x1 == x2 || y1 == y2);
             if (horizontalVerticalCheck){
-                // System.out.println("X: "+x1+", "+x2);
-                // System.out.println("minmax X: "+minX+", "+maxX);    
                 for (int i=minX; i<=maxX; i++){
                     for (int j=minY; j<= maxY; j++){
                         m[j][i]++;
