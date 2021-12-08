@@ -75,7 +75,7 @@ public class Day4 {
                 m = markNumberInMatrix(m, lastDraw);
                 matrixList.set(i, m);
 
-                System.out.println("last: " + lastDraw);
+                // System.out.println("last: " + lastDraw);
                 // displayMatrix(m);
 
                 if (isWinner(m)){
@@ -141,7 +141,7 @@ public class Day4 {
                 m = markNumberInMatrix(m, lastDraw);
                 matrixList.set(i, m);
 
-                System.out.println("last: " + lastDraw);
+                // System.out.println("last: " + lastDraw);
                 // displayMatrix(m);
 
                 if (isWinner(m)){
@@ -204,8 +204,8 @@ public class Day4 {
         return result;
     }
     public static void displayMatrix(int[][] m){
-        for(int i=0; i<5; i++){
-            for(int j=0; j<5; j++){
+        for(int i=0; i<m.length; i++){
+            for(int j=0; j<m[i].length; j++){
                 System.out.print(m[i][j] + " ");
             }
             System.out.println();
