@@ -40,9 +40,7 @@ public class Day10 {
 
         List<Long> incompleteScores = new ArrayList<>();
 
-        int line = 1;
         for(String in:input){
-            line++;
             char[] vals = in.toCharArray();
             Stack<Character> stk = new Stack<>();
             boolean isIncomplete = true;

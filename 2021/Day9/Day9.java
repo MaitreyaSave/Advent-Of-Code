@@ -7,9 +7,6 @@ import java.util.Collections;
 import java.util.List;
 import java.util.Scanner;
 
-
-import Day4.Day4;
-
 public class Day9 {
     static List<String> input;
     static int[][] mat;
