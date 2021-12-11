@@ -1,4 +1,4 @@
-package Day1;
+package Day01;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-public class Day1{
+public class Day01{
     static List<Integer> input;
     public static void main(String[] args) {
         // Input
