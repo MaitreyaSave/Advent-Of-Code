@@ -10,7 +10,7 @@ public class Day03 {
     static List<String> input;
     public static void main(String[] args) {
         // Input
-        File file = new File("2021/Day3/input.txt");
+        File file = new File("2021/Day03/input.txt");
         input = new ArrayList<>();
         try {
             Scanner sc = new Scanner(file);
